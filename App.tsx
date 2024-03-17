@@ -1,14 +1,10 @@
-import {useState} from 'react';
 import {
-  Pressable,
   SafeAreaView,
   ScrollView,
-  StyleSheet,
-  Text,
-  View,
+  StyleSheet
 } from 'react-native';
-import {DAL} from './src/DataAccessLayer';
-import {MyComp} from './src/components';
+import { DAL } from './src/DataAccessLayer';
+import { MyComp } from './src/components';
 
 const App = () => {
   const updatingObj = {
