@@ -25,9 +25,12 @@ const MyComp = ({title, btnTitle, onPress}: MyCompProps) => {
         </Pressable>
       </View>
       <ScrollView
+        nestedScrollEnabled
         showsVerticalScrollIndicator={false}
         style={{width: '100%', maxHeight: 250, minHeight: 100}}>
-        {data && <Text>{JSON.stringify(data, null, 2)}</Text>}
+        {data && (
+          <Text style={{fontSize: 15}}>{JSON.stringify(data, null, 2)}</Text>
+        )}
       </ScrollView>
     </View>
   );
