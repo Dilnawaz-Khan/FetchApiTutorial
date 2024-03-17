@@ -15,6 +15,7 @@ Import the DAL object from the provided file.
 Utilize the respective methods (GET, POST, PUT, PATCH, DELETE) of the DAL object for performing API requests.
 Example:
 
+```javascript
 import { DAL } from './DAL';
 
 // Example of making a GET request
@@ -39,6 +40,7 @@ const addData = async () => {
 };
 
 // Additional examples for PUT, PATCH, and DELETE requests can be similarly implemented.
+```
 
 Note:
 Replace the baseURL within the DAL object with your actual backend API URL.
